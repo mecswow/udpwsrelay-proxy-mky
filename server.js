@@ -26,7 +26,7 @@ const TCP_PORT = process.env.RAILWAY_TCP_PROXY_PORT || '';
 const DB_PATH = path.resolve(process.env.DATA_DIR || './', 'proxy_data.json');
 
 const UDP_ENDPOINT_URL = RAILWAY_PUBLIC_DOMAIN 
-  ? `wss://${wsudprelaymky.up.railway.app}:443` 
+  ? `wss://${udpwsrelay-proxy-mky-production.up.railway.app}:443` 
   : `ws://103.196.155.151:${MAIN_PORT}`;
 
 // ==========================================
